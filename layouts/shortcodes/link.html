@@ -1,0 +1,3 @@
+{{ $url := .Get "href" }}
+{{ $text := .Get 0 }}
+<a href="{{ $url }}" target="_blank" rel="noopener">{{ $text }}</a>
