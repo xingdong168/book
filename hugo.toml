@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://docs.iita.net/'
 languageCode = 'zh-cn'
-title = '伤寒论'
+title = '文档'
 theme = "book"
 
 [params]
