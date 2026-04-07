@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '伤寒论'
+theme = "book"
+
+[params]
+  BookTheme = "auto"
+  BookToC = true
+  BookSection = "docs"
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    contentDir = "content"
