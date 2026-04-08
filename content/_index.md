@@ -16,6 +16,7 @@ title: "文档"
 
 - [针灸甲乙经]({{< relref "/docs/zhenjiujiayijing/" >}}) — 西晋·皇甫谧著，12卷
 - [伤寒论]({{< relref "/docs/shanghanlun/" >}}) — 东汉·张仲景著，398条原文
+- [金匮要略]({{< relref "/docs/jinguiyaolve/" >}}) — 东汉·张仲景著，3卷+药方
 
 ### 软件教程
 
@@ -33,6 +34,7 @@ title: "文档"
 |------|------|------|
 | [针灸甲乙经]({{< relref "/docs/zhenjiujiayijing/" >}}) | ✅ 已完成 | 中医古籍 |
 | [伤寒论]({{< relref "/docs/shanghanlun/" >}}) | ✅ 已完成 | 中医古籍 |
+| [金匮要略]({{< relref "/docs/jinguiyaolve/" >}}) | ✅ 已完成 | 中医古籍 |
 | WordPress 安装教程 | 🚧 整理中 | 软件教程 |
 | Bitwarden 部署教程 | 🚧 整理中 | 软件教程 |
 | 系统安装教程 | 🚧 整理中 | 系统部署 |
