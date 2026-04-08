@@ -1,7 +1,7 @@
 ---
 title: "伤寒论"
 description: "东汉·张仲景著，中医经典著作"
-weight: 10
+weight: 2
 bookCollapseSection: true
 ---
 
