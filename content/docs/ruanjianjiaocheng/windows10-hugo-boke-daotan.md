@@ -1,7 +1,7 @@
 ---
 title: "Windows 10 从零搭建 Hugo 博客"
 description: "手把手教你在 Windows 10 上用 Hugo 搭博客，源码托管在 GitHub，全球 CDN 加速通过 Cloudflare Pages 部署，完全免费。"
-weight: 3
+weight: 4
 ---
 
 很多新手想做个人博客，又不想花钱买服务器。本文手把手教你在 Windows 10 上用 Hugo 搭博客，源码免费托管在 GitHub，**全球 CDN 加速的站点通过 Cloudflare Pages 部署，完全免费**。

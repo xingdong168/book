@@ -22,9 +22,7 @@ title: "文档"
 
 常用软件的安装与配置教程，图文并茂，步骤清晰。
 
-- WordPress 安装教程 — 即将上线
-- 密码管理器部署教程 — 即将上线
-- 系统安装教程 — 即将上线
+- [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/ruanjianjiaocheng/windows10-hugo-boke-daotan/" >}}) — GitHub 托管 + Cloudflare Pages 免费部署
 
 ---
 
@@ -35,9 +33,7 @@ title: "文档"
 | [针灸甲乙经]({{< relref "/docs/zhenjiujiayijing/" >}}) | ✅ 已完成 | 中医古籍 |
 | [伤寒论]({{< relref "/docs/shanghanlun/" >}}) | ✅ 已完成 | 中医古籍 |
 | [金匮要略]({{< relref "/docs/jinguiyaolve/" >}}) | ✅ 已完成 | 中医古籍 |
-| WordPress 安装教程 | 🚧 整理中 | 软件教程 |
-| Bitwarden 部署教程 | 🚧 整理中 | 软件教程 |
-| 系统安装教程 | 🚧 整理中 | 系统部署 |
+| [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/ruanjianjiaocheng/windows10-hugo-boke-daotan/" >}}) | ✅ 已上线 | 软件教程 |
 
 ---
 
