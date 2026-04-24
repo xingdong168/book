@@ -18,6 +18,12 @@ title: "文档"
 - [伤寒论]({{< relref "/docs/shanghanlun/" >}}) — 东汉·张仲景著，398条原文
 - [金匮要略]({{< relref "/docs/jinguiyaolve/" >}}) — 东汉·张仲景著，3卷+药方
 
+### 生活随笔
+
+生活中的碎碎念，随手记录，成长的点滴。
+
+- [三十岁]({{< relref "/docs/suisuiji/sanshi-sui/" >}}) — 三十岁，更多了一份安静的心
+
 ### 软件教程
 
 常用软件的安装与配置教程，图文并茂，步骤清晰。
@@ -30,6 +36,7 @@ title: "文档"
 
 | 文档 | 状态 | 分类 |
 |------|------|------|
+| [三十岁]({{< relref "/docs/suisuiji/sanshi-sui/" >}}) | 🆕 新增 | 生活随笔 |
 | [针灸甲乙经]({{< relref "/docs/zhenjiujiayijing/" >}}) | ✅ 已完成 | 中医古籍 |
 | [伤寒论]({{< relref "/docs/shanghanlun/" >}}) | ✅ 已完成 | 中医古籍 |
 | [金匮要略]({{< relref "/docs/jinguiyaolve/" >}}) | ✅ 已完成 | 中医古籍 |
