@@ -29,8 +29,9 @@
       {{ if gt (len $sections) 1 }}
         {{ $catKey := index $sections 1 }}
         {{ if or (eq $catKey "zhenjiujiayijing") (eq $catKey "shanghanlun") (eq $catKey "jinguiyaolve") }}{{ $category = "中医古籍" }}{{ end }}
-        {{ if eq $catKey "ruanjianjiaocheng" }}{{ $category = "软件教程" }}{{ end }}
+        {{ if eq $catKey "hugo-jiaocheng" }}{{ $category = "Hugo 教程" }}{{ end }}
         {{ if eq $catKey "suisuiji" }}{{ $category = "生活随笔" }}{{ end }}
+        {{ if eq $catKey "ruanjianjiaocheng" }}{{ $category = "软件教程" }}{{ end }}
       {{ end }}
 
       <tr>

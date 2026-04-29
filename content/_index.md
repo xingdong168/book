@@ -24,12 +24,18 @@ title: "文档"
 
 - [三十岁]({{< relref "/docs/suisuiji/sanshi-sui/" >}}) — 三十岁，更多了一份安静的心
 
-### 软件教程
+### Hugo 教程
 
-常用软件的安装与配置教程，图文并茂，步骤清晰。
+Hugo 静态博客从零搭建到自动化部署的完整教程。
 
-- [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/ruanjianjiaocheng/windows10-hugo-boke-daotan/" >}}) — GitHub 托管 + Cloudflare Pages 免费部署
-- [Hugo 博客一键推送脚本]({{< relref "/docs/ruanjianjiaocheng/hugo-push-script/" >}}) — 双击推送 + 解决中文乱码
+- [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/hugo-jiaocheng/windows10-hugo-boke-daotan/" >}}) — GitHub 托管 + Cloudflare Pages 免费部署
+- [Hugo 博客一键推送脚本]({{< relref "/docs/hugo-jiaocheng/hugo-push-script/" >}}) — 双击推送 + 解决中文乱码
+
+### 生活随笔
+
+生活中的碎碎念，随手记录，成长的点滴。
+
+- [三十岁]({{< relref "/docs/suisuiji/sanshi-sui/" >}}) — 三十岁，更多了一份安静的心
 
 ---
 
