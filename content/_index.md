@@ -29,18 +29,13 @@ title: "文档"
 常用软件的安装与配置教程，图文并茂，步骤清晰。
 
 - [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/ruanjianjiaocheng/windows10-hugo-boke-daotan/" >}}) — GitHub 托管 + Cloudflare Pages 免费部署
+- [Hugo 博客一键推送脚本]({{< relref "/docs/ruanjianjiaocheng/hugo-push-script/" >}}) — 双击推送 + 解决中文乱码
 
 ---
 
 ## 最近更新
 
-| 文档 | 状态 | 分类 |
-|------|------|------|
-| [三十岁]({{< relref "/docs/suisuiji/sanshi-sui/" >}}) | 🆕 新增 | 生活随笔 |
-| [针灸甲乙经]({{< relref "/docs/zhenjiujiayijing/" >}}) | ✅ 已完成 | 中医古籍 |
-| [伤寒论]({{< relref "/docs/shanghanlun/" >}}) | ✅ 已完成 | 中医古籍 |
-| [金匮要略]({{< relref "/docs/jinguiyaolve/" >}}) | ✅ 已完成 | 中医古籍 |
-| [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/ruanjianjiaocheng/windows10-hugo-boke-daotan/" >}}) | ✅ 已上线 | 软件教程 |
+{{< recent-updates limit=10 daysNew=7 >}}
 
 ---
 
