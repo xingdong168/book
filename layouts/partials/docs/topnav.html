@@ -1,0 +1,16 @@
+<nav class="book-topnav">
+  <div class="book-topnav-inner">
+    <a class="book-topnav-brand" href="{{ "" | relURL }}">
+      {{ .Site.Title }}
+    </a>
+    <ul class="book-topnav-links">
+      {{ range .Site.Menus.home }}
+      <li>
+        <a href="{{ if .Page }}{{ .Page.RelPermalink }}{{ else }}{{ .URL }}{{ end }}">
+          {{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

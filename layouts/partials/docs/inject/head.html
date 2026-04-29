@@ -1,0 +1,73 @@
+<style>
+/* 顶部导航栏样式 */
+.book-topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 3rem;
+  background: var(--body-background);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.book-topnav-inner {
+  max-width: 80rem;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.book-topnav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--body-font-color);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.book-topnav-brand:hover {
+  opacity: 0.75;
+}
+
+.book-topnav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.25rem;
+}
+
+.book-topnav-links li a {
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--body-font-color);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.book-topnav-links li a:hover {
+  background: var(--gray-100);
+}
+
+/* 内容区下沉，避免被导航遮挡 */
+body.book-with-topnav .book-menu .book-menu-content {
+  top: calc(3rem + 1rem);
+}
+
+body.book-with-topnav .book-toc .book-toc-content {
+  top: calc(3rem + 1rem);
+}
+
+body.book-with-topnav .book-page {
+  padding-top: calc(3rem + 1rem);
+}
+</style>

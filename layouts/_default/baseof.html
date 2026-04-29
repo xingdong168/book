@@ -5,6 +5,9 @@
   {{ partial "docs/inject/head" . }}
 </head>
 <body dir="{{ default "ltr" .Site.Language.LanguageDirection }}" class="book-kind-{{ .Kind }} book-type-{{ .Type }}{{ with .Layout }} book-layout-{{ . }}{{ end }}{{ if .Site.Menus.home }} book-with-topnav{{ end }}">
+  {{ if .Site.Menus.home }}
+    {{ partial "docs/topnav" . }}
+  {{ end }}
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
