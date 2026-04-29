@@ -1,0 +1,43 @@
+{{/* 最近更新文章列表 - 自动获取按时间排序的内容 */}}
+{{ $limit := .Get "limit" | default 10 }}
+{{ $daysNew := .Get "daysNew" | default 7 }}
+{{ $now := now }}
+
+{{/* 获取所有 docs 下的页面，按修改时间排序 */}}
+{{ $pages := where .Site.RegularPages "Section" "docs" }}
+{{ $sorted := sort $pages ".Lastmod" "desc" }}
+{{ $recent := first $limit $sorted }}
+
+<table>
+  <thead>
+    <tr>
+      <th>文档</th>
+      <th>状态</th>
+      <th>分类</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $recent }}
+      {{/* 判断是否是最近7天内新增 */}}
+      {{ $daysDiff := sub ($now.Unix) (.Lastmod.Unix) }}
+      {{ $daysAgo := div $daysDiff 86400 }}
+      {{ $isNew := lt $daysAgo $daysNew }}
+
+      {{/* 获取分类名 */}}
+      {{ $category := "其他" }}
+      {{ $sections := split (trim .RelPermalink "/") "/" }}
+      {{ if gt (len $sections) 1 }}
+        {{ $catKey := index $sections 1 }}
+        {{ if or (eq $catKey "zhenjiujiayijing") (eq $catKey "shanghanlun") (eq $catKey "jinguiyaolve") }}{{ $category = "中医古籍" }}{{ end }}
+        {{ if eq $catKey "ruanjianjiaocheng" }}{{ $category = "软件教程" }}{{ end }}
+        {{ if eq $catKey "suisuiji" }}{{ $category = "生活随笔" }}{{ end }}
+      {{ end }}
+
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ if $isNew }}🆕 新增{{ else }}✅ 已更新{{ end }}</td>
+        <td>{{ $category }}</td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>

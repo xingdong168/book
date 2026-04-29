@@ -8,6 +8,27 @@ theme = "book"
   BookToC = true
   BookSection = "docs"
 
+[menu]
+[[menu.home]]
+  name = "首页"
+  pageRef = "/"
+  weight = 1
+
+[[menu.home]]
+  name = "知识库"
+  pageRef = "/docs"
+  weight = 2
+
+[[menu.home]]
+  name = "工具"
+  pageRef = "/docs/ruanjianjiaocheng"
+  weight = 3
+
+[[menu.home]]
+  name = "关于"
+  pageRef = "/about"
+  weight = 4
+
 [languages]
   [languages.zh]
     languageName = "中文"
