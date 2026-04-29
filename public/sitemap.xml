@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1317/docs/jinguiyaolve/juan-shang/</loc>
   </url><url>
+    <loc>http://localhost:1317/docs/suisuiji/sanshi-sui/</loc>
+  </url><url>
     <loc>http://localhost:1317/docs/</loc>
   </url><url>
     <loc>http://localhost:1317/docs/shanghanlun/yuanxu/</loc>
@@ -15,6 +17,8 @@
     <loc>http://localhost:1317/docs/shanghanlun/taiyang-shang/</loc>
   </url><url>
     <loc>http://localhost:1317/docs/jinguiyaolve/juan-zhong/</loc>
+  </url><url>
+    <loc>http://localhost:1317/docs/suisuiji/sanshi-sui-optimized/</loc>
   </url><url>
     <loc>http://localhost:1317/docs/shanghanlun/</loc>
   </url><url>
@@ -28,11 +32,19 @@
   </url><url>
     <loc>http://localhost:1317/docs/zhenjiujiayijing/juan-03/</loc>
   </url><url>
+    <loc>http://localhost:1317/docs/jiaocheng/windows10-hugo-boke-daotan/</loc>
+  </url><url>
     <loc>http://localhost:1317/docs/shanghanlun/taiyang-xia/</loc>
   </url><url>
     <loc>http://localhost:1317/docs/jinguiyaolve/yaofang/</loc>
   </url><url>
+    <loc>http://localhost:1317/docs/jiaocheng/</loc>
+  </url><url>
+    <loc>http://localhost:1317/docs/suisuiji/</loc>
+  </url><url>
     <loc>http://localhost:1317/docs/zhenjiujiayijing/juan-04/</loc>
+  </url><url>
+    <loc>http://localhost:1317/docs/jiaocheng/hugo-push-script/</loc>
   </url><url>
     <loc>http://localhost:1317/docs/shanghanlun/yangming/</loc>
   </url><url>
@@ -71,6 +83,8 @@
     <loc>http://localhost:1317/categories/</loc>
   </url><url>
     <loc>http://localhost:1317/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1317/about/</loc>
   </url><url>
     <loc>http://localhost:1317/</loc>
   </url>

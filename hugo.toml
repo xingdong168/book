@@ -21,7 +21,7 @@ theme = "book"
 
 [[menu.home]]
   name = "工具"
-  pageRef = "/docs/ruanjianjiaocheng"
+  pageRef = "/docs/jiaocheng"
   weight = 3
 
 [[menu.home]]
