@@ -29,7 +29,7 @@ title: "文档"
 软件相关教程，常用软件的安装与配置教程，图文并茂，步骤清晰。
 
 - [Windows 10 从零搭建 Hugo 博客]({{< relref "/docs/jiaocheng/windows10-hugo-boke-daotan/" >}}) — GitHub 托管 + Cloudflare Pages 免费部署
-- [Hugo 博客一键推送脚本]({{< relref "/docs/hugo-jiaocheng/hugo-push-script/" >}}) — 双击推送 + 解决中文乱码
+- [Hugo 博客一键推送脚本]({{< relref "/docs/jiaocheng/hugo-push-script/" >}}) — 双击推送 + 解决中文乱码
 
 ### 生活随笔
 
